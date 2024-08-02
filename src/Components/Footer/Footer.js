@@ -2,7 +2,7 @@ import React from 'react';
 import Form from './Form';
 import * as styles from './styles.module.css';
 
-//i will need to implement the line, logo and the social links below the form
+//i need to work on the responsiveness of this component
 function Footer() {
     return(
         <section className={styles.container}>
