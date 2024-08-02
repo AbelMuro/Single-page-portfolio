@@ -7,14 +7,15 @@
     grid-template-columns: repeat(3, 345px);
     border-top: 1px solid var(--white, #FFF);
     margin: 0px auto 140px auto;
+    position: relative;
 }
 
 .rings{
     width: 530px;
     height: 129px;
     position: absolute;
-    top: 1077px;
-    right: -239px;
+    bottom: -55px;
+    right: -409px;
 }
 
 .skill{
@@ -69,10 +70,9 @@
     }
 
     .rings{
-        top: 1047px;
-        right: -332px;
+        bottom: -65px;
+        right: -371px;
     }
-    
 }
 
 @media(max-width: 600px){
@@ -100,8 +100,6 @@
     }
 
     .rings{
-        top: 1250px;
-        right: -344px;
-    }
-    
+        right: -360px;
+    }   
 }
