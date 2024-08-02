@@ -1,5 +1,5 @@
 .container{
-    min-height: 675px;
+    height: 675px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,8 +159,7 @@
 
 @media(max-width: 800px){
     .container{
-        min-height: 806px;
-        padding: 60px 0px 43px 0px;
+        height: 806px;
         background-position: top 547px left -368px;
     }
 
@@ -199,7 +198,7 @@
 @media(max-width: 600px){
     .container{
         padding: 60px 0px;
-        min-height: 834px;
+        height: auto;
         min-height: 834px;
         background-position: top 436px left -343px;
     }
