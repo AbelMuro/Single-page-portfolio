@@ -17,7 +17,21 @@ function Footer() {
                     I’ll get back to you as soon 
                     as possible.
                 </p>   
-                <Form/>                          
+                <Form/>       
+                <div className={styles.line}></div>  
+                <h2>
+                    adamkeyes
+                </h2>
+                <ul className={styles.social_links}>
+                    <li className={styles.social_link}>
+                    </li>
+                    <li className={styles.social_link}>
+                    </li>
+                    <li className={styles.social_link}>
+                    </li>
+                    <li className={styles.social_link}>
+                    </li>
+                </ul>
             </div>
         </section>
     )

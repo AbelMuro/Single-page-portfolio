@@ -29,7 +29,7 @@
 }
 
 .social_links{
-    width: 192px;
+    width: 192.492px;
     margin: 0px;
     padding: 0px;    
     display: flex;
@@ -56,8 +56,8 @@
 .social_link:nth-of-type(1){
     width: 24px;
     height: 24px;
-    mask-image: url('./icons/icon-github.svg');
-    -webkit-mask-image: url('./icons/icon-github.svg');
+    mask-image: url('/public/icons/icon-github.svg');
+    -webkit-mask-image: url('/public/icons/icon-github.svg');
     mask-size: 24px 24px;
     -webkit-mask-size: 24px 24px; 
 }
@@ -69,8 +69,8 @@
 .social_link:nth-of-type(2){
     width: 24px;
     height: 22px;
-    mask-image: url('./icons/icon-frontend-mentor.svg');
-    -webkit-mask-image: url('./icons/icon-frontend-mentor.svg');
+    mask-image: url('/public/icons/icon-frontend-mentor.svg');
+    -webkit-mask-image: url('/public/icons/icon-frontend-mentor.svg');
     mask-size: 24px 22px;
     -webkit-mask-size: 24px 22px; 
 }
@@ -82,8 +82,8 @@
 .social_link:nth-of-type(3){
     width: 24px;
     height: 24px;
-    mask-image: url('./icons/icon-linkedin.svg');
-    -webkit-mask-image: url('./icons/icon-linkedin.svg');
+    mask-image: url('/public/icons/icon-linkedin.svg');
+    -webkit-mask-image: url('/public/icons/icon-linkedin.svg');
     mask-size: 24px 24px;
     -webkit-mask-size: 24px 24px; 
 }
@@ -95,8 +95,8 @@
 .social_link:nth-of-type(4){
     width: 23px;
     height: 18px;
-    mask-image: url('./icons/icon-twitter.svg');
-    -webkit-mask-image: url('./icons/icon-twitter.svg');
+    mask-image: url('/public/icons/icon-twitter.svg');
+    -webkit-mask-image: url('/public/icons/icon-twitter.svg');
     mask-size: 23px 18px;
     -webkit-mask-size: 23px 18px; 
 }
