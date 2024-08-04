@@ -46,7 +46,7 @@ function EnterEmail() {
                 placeholder='EMAIL'
                 required
                 />
-            {error && <img className={styles.error_icon} src={icons['error']}/>}
+            {error && <img className={styles.error_icon} src={icons['error']} alt='error icon'/>}
             {error === 'empty' && 
                 <div className={styles.error_message}>
                     Sorry, can't be empty

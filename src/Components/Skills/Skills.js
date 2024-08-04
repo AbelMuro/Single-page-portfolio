@@ -55,7 +55,7 @@ function Skills(){
                     3 Years Experience
                 </em>
             </div>
-            <img className={styles.rings} src={images['rings']}/>
+            <img className={styles.rings} src={images['rings']} alt='background image'/>
         </section>
     )
 }

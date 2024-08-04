@@ -30,7 +30,7 @@ function Projects() {
             </button>
             <article className={styles.project}>
                 <div className={styles.project_image} onMouseEnter={() => handleMouseEnter('design portfolio')} onMouseLeave={handleMouseLeave}>
-                    <img />
+                    <img alt='project image'/>
                     <AnimatePresence>
                         {project === 'design portfolio' && 
                             <motion.div 
@@ -72,7 +72,7 @@ function Projects() {
             </article>
             <article className={styles.project}>
                 <div className={styles.project_image} onMouseEnter={() => handleMouseEnter('e-learning landing page')} onMouseLeave={handleMouseLeave}>
-                    <img />
+                    <img alt='project image'/>
                     <AnimatePresence>
                         {project === 'e-learning landing page' &&  
                             <motion.div 
@@ -114,7 +114,7 @@ function Projects() {
             </article>
             <article className={styles.project}>
                 <div className={styles.project_image} onMouseEnter={() => handleMouseEnter('todo web app')} onMouseLeave={handleMouseLeave}>
-                    <img />
+                    <img alt='project image'/>
                     <AnimatePresence>
                         {project === 'todo web app' && 
                             <motion.div 
@@ -159,7 +159,7 @@ function Projects() {
             </article>
             <article className={styles.project}>
             <div className={styles.project_image} onMouseEnter={() => handleMouseEnter('entertainment web app')} onMouseLeave={handleMouseLeave}>
-                    <img />
+                    <img alt='project image'/>
                     <AnimatePresence>
                         {project === 'entertainment web app' && 
                             <motion.div 
@@ -204,7 +204,7 @@ function Projects() {
             </article>
             <article className={styles.project}>
                 <div className={styles.project_image} onMouseEnter={() => handleMouseEnter('memory game')} onMouseLeave={handleMouseLeave}>
-                    <img />
+                    <img alt='project image'/>
                     <AnimatePresence>
                         {project === 'memory game' && 
                             <motion.div 
@@ -249,7 +249,7 @@ function Projects() {
             </article>
             <article className={styles.project}>
                 <div className={styles.project_image} onMouseEnter={() => handleMouseEnter('art gallery showcase')} onMouseLeave={handleMouseLeave}>
-                    <img />
+                    <img alt='project image'/>
                     <AnimatePresence>
                         {project === 'art gallery showcase' && 
                             <motion.div 

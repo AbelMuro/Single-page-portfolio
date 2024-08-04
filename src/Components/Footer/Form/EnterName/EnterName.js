@@ -38,7 +38,7 @@ function EnterName() {
                 placeholder='NAME'
                 required
                 />
-            {error === 'empty' && <img className={styles.error_icon} src={icons['error']}/>}
+            {error === 'empty' && <img className={styles.error_icon} src={icons['error']} alt='error icon'/>}
             {error === 'empty' && 
                 <div className={styles.error_message}>
                     Sorry, can't be empty
