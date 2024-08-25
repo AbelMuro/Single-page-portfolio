@@ -33,7 +33,7 @@ function Header(){
                 </button>
             </section>
             <div className={styles.image_container}>
-                <img className={styles.profile_image} alt='developers photo'/>
+                <img className={styles.profile_image}/>
                 <img className={styles.circle} src={icons['circle']} alt='background image'/>
             </div>
             <img className={styles.rings} src={icons['rings']} alt='background image'/>

@@ -167,7 +167,7 @@
     justify-self: end;
     grid-column: 1/3;
     grid-row: 1/3;
-    z-index: var(--farthest)
+    z-index: var(--farthest);
 }
 
 .profile_image{
